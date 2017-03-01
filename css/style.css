@@ -1,6 +1,15 @@
 body {
   text-align: center;
 }
+.responsive {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    background-size: contain;
+}
+#laptop {
+  max-width: 100%; 
+}
 @keyframes drift-fadeZoomIn {
   0% { transform: scale(1.5); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
